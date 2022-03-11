@@ -1,0 +1,91 @@
+.women {
+  max-width: 1056px;
+  margin: 0 auto;
+}
+.h2__block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 114px;
+}
+.woman__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #22262a;
+  margin: 0;
+}
+.women__desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #22262a;
+  margin-top: 15px;
+}
+.woman__colage {
+  margin-top: 65px;
+}
+.img__case {
+  display: flex;
+  flex-direction: row;
+}
+.img__size {
+  max-width: 247.5px;
+  margin-right: 20px;
+}
+.img__sizer {
+  max-width: 247.5px;
+  margin-right: 20px;
+}
+
+.img__desccase {
+  display: flex;
+  flex-direction: column;
+}
+.img__name {
+  margin-top: 38px;
+  margin-bottom: 0;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #22262a;
+}
+.h3__img {
+  margin-top: 3px;
+  margin-bottom: 0;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #22262a;
+}
+.price__old {
+  display: inline-block;
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #b91515;
+  margin-right: 15px;
+}
+.price__active {
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #b91515;
+}
+.price__case {
+  margin-top: 3px;
+  margin-bottom: 0;
+}

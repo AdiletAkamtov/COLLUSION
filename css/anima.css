@@ -1,0 +1,55 @@
+.title__anima{
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 1.5s ease 1s;
+}
+.title__anima.animation-class{
+	transform: translate(0px, 0px);
+	opacity: 1;
+	transition: all 1.5s ease 1s;
+}
+.img__size{
+    opacity: 0;
+	transform: translateX(-300px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.img__size.animation-class{
+    opacity: 1;
+	transform: translateX(0px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+
+}
+.img__sizer{
+    opacity: 0;
+	transform: translateX(300px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.img__sizer.animation-class{
+    opacity: 1;
+	transform: translateX(0px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+
+}
+.avoneblock__l{
+    opacity: 0;
+	transform: translateX(-300px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.avoneblock__l.animation-class{
+    opacity: 1;
+	transform: translateX(0px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.avoneblock__r{
+    opacity: 0;
+	transform: translateX(300px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+
+}
+.avoneblock__r.animation-class{
+    opacity: 1;
+	transform: translateX(0px);
+	transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+
+    
+}

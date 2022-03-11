@@ -1,0 +1,44 @@
+.colage {
+	max-width: 1056px;
+	margin: 0 auto;
+}
+.blockbg {
+	display: flex;
+	margin-top: 110px;
+}
+.blockl__r{
+	display: flex;
+	flex-direction: row;
+	margin-top: 22px;
+}
+.blockr{
+	display: flex;
+}
+
+.photo__1{
+	width: 551px;
+	height: 286.84px;
+	margin-right: 30px;
+	
+}
+.photo__2{
+	width: 262.19px;
+	height: 265.15px;
+    margin-right: 30px;
+}
+.photo__3{
+	width: 261.21px;
+	height: 265.15px;
+    margin-right: 30px;
+}
+.photo__4{
+	width: 475px;
+    height: 577px;
+}
+
+
+
+
+
+  
+  

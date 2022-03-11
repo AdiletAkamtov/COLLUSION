@@ -1,0 +1,56 @@
+.tachen {
+  background: #e7f5f8;
+}
+.mttop {
+  max-width: 1056px;
+  margin: 0 auto;
+}
+.tachen__block {
+  display: flex;
+  justify-content: center;
+}
+.tachen__img {
+  background: rgb(244, 249, 253);
+}
+.tachen__case {
+  position: relative;
+}
+.tachen__p {
+  position: absolute;
+  top: 58%;
+  left: 270px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262a;
+}
+
+.tachen__title {
+  position: absolute;
+  top: 65%;
+  left: 270px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #22262a;
+  margin: 0;
+}
+
+.tachen__btn {
+  position: absolute;
+  top: 80%;
+  left: 270px;
+  width: 214px;
+  height: 35px;
+  background: #22262a;
+}
+.tachen__btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}

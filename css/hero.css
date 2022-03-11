@@ -1,0 +1,126 @@
+.container {
+  max-width: 1056px;
+  margin: 0 auto;
+}
+.nav__block {
+  max-width: 1056px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #22262a;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.navigation__ul {
+  display: flex;
+  max-width: 527px;
+  margin: 0px 120px 0px 120px;
+  padding: 0;
+}
+.navigation__ul > li {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 18px;
+  color: #22262a;
+  margin: 10px;
+}
+.case__serach {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+}
+.serach {
+  height: 18px;
+  width: 18px;
+  margin-right: 30px;
+}
+.fovorit {
+  height: 18px;
+  width: 18px;
+}
+.cart {
+  margin-left: 30px;
+  height: 18px;
+  width: 18px;
+}
+.img__bg {
+  background: #ced9dd;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.img__photo {
+  width: 1413px;
+  height: 100%;
+}
+.bg__case {
+  position: relative;
+}
+.csae__title {
+  position: absolute;
+  top: 382px;
+  right: 359px;
+}
+.new__trend {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #22262a;
+  margin: 0;
+  margin-bottom: 18px;
+}
+.hreo__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  color: #22262a;
+  margin: 0;
+}
+.hreo__title.animation-class {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+}
+.desc__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #22262a;
+  margin-top: 18px;
+}
+.btn {
+  width: 147px;
+  height: 35px;
+  left: 908px;
+  top: 692px;
+  margin-right: 34px;
+  background: #22262a;
+}
+.btn > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #ffffff;
+}

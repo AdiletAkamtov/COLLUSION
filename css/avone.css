@@ -1,0 +1,98 @@
+.avone {
+    max-width: 1056px;
+    margin: 0 auto;
+}
+.avone__title {
+    margin-top: 110px;   
+}
+.avone__h2 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+.avone__p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #22262A;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.avone__case {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.avoneblock__l {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img__avone11{
+    position: absolute ;
+    top: 87px;
+    left: 0;
+    max-width: 528px;
+}
+.avoneblock__r {
+    position: relative;
+    margin-bottom: 780px;
+   
+}
+.img__avone12{
+    position: absolute;
+    top: 0;
+    right: 48px;
+    max-width: 460px;
+}
+.img__avone13{
+    position: absolute;
+    top: 337px;
+    right: 0;
+    max-width: 227px;
+    z-index: 2;
+}
+.block__whait {
+    position: absolute;
+    width: 227px;
+    height: 281px;
+    top: 320px;
+    right: 18px;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+}
+.avoneblocr__p {
+    display: flex;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 15px;
+    color: #22262A;
+    top: 537px;
+    right: 245px;
+    white-space: nowrap;
+}
+.avoneblocr__p {
+	animation: avoneblocr__p 10s cubic-bezier(0.860, 0.000, 0.070, 1.000) infinite alternate backwards;
+}
+  @keyframes avoneblocr__p {
+    0% {
+      -webkit-transform: rotate(-360deg);
+              transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      opacity: 1;
+    }
+  }
+  
