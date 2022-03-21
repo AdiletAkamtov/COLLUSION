@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const scrollItems = document.querySelectorAll('.scroll-item');
 
 	const scrollAnimation = () => {
-		let windowCenter = (window.innerHeight / 2) + window.scrollY;
+		let windowCenter = (window.innerHeight /1) + window.scrollY;
 		console.log(windowCenter)
 		scrollItems.forEach(el => {
 			let scrollOffset = el.offsetTop + (el.offsetHeight / 2);
@@ -15,24 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		});
 	};
-
-	// const headerFixed = () => {
-	// 	let scrollTop = window.scrollY;
-	// 	let heroCenter = hero.offsetHeight / 2;
-
-	// 	if (scrollTop >= heroCenter) {
-	// 		header.classList.add('fixed')
-	// 		hero.style.marginTop = `${header.offsetHeight}px`;
-	// 	} else {
-	// 		header.classList.remove('fixed')
-	// 		hero.style.marginTop = `0px`;
-	// 	}
-	// };
-
-	// headerFixed();
 	scrollAnimation();
 	window.addEventListener('scroll', () => {
-		// headerFixed();
 		scrollAnimation();
 	});
 });
